@@ -5,4 +5,4 @@ It contains functions to process text-file (mainly csv).
 
 Installation
 ============
-Install the package with `composer require scavix/wdf-textdata`
+Install the package with `composer require {{name}}`.

@@ -105,7 +105,7 @@ function csv_detect_delimiter($csv)
 	$rows = explode("\n",trim($csv));
 	$r = $rows[0];
 	$counts = [];
-	foreach( array(';',',','|',"\t") as $delim )
+	foreach([';', ',', '|', "\t"] as $delim )
 		$counts[count(explode($delim,$r))] = $delim;
 	krsort($counts);
     return array_shift($counts);
