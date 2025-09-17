@@ -5,4 +5,8 @@ It contains functions to process text-file (mainly csv).
 
 Installation
 ============
-Install the package with `composer require {{name}}`.
+Install the package with `composer require scavix/wdf-textdata`.
+
+Dependencies
+------------
+* [scavix/wdf-core (^1.0.2)](https://packagist.org/packages/scavix/wdf-core#v1.0.2)
