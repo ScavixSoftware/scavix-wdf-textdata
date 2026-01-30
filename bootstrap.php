@@ -23,8 +23,7 @@
  * @license http://www.opensource.org/licenses/lgpl-license.php LGPL
  */
 
-use ScavixWDF\Wdf;
-Wdf::RegisterPackage('textdata');
+\ScavixWDF\Wdf::RegisterPackage('textdata');
 
 /**
  * Parses CSV data into an array.
