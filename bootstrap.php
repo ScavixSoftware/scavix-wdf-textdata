@@ -80,7 +80,6 @@ function csv_to_array($csv, $delimiter = false, $enclosure = '"', $escape = '\\'
  * @param string $delimiter CSV delimiter used
  * @param string $enclosure CSV enclosure string
  * @param string $escape CSV escape string
- * @param string $terminator CSV line terminator
  * @return array An array with one entry per field
  */
 function csv_header($csv, $delimiter = ',', $enclosure = '"', $escape = '\\')
@@ -95,7 +94,6 @@ function csv_header($csv, $delimiter = ',', $enclosure = '"', $escape = '\\')
  *
  * This may be one of: ';'  ','  '|'  '\t'
  * @param string $csv CSV data as string
- * @param string $terminator CSV line terminator
  * @return string The delimiter that seems to match best
  */
 function csv_detect_delimiter($csv)
